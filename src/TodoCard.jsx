@@ -9,12 +9,12 @@ const TodoCard = (props) => {
   return (
     <div
       style={{
-        backgroundColor: "orange",
-        margin: "10px",
+        backgroundColor: "green",
+        margin: "1px",
         padding: "15px",
-        width: "150px",
+        width: "120px",
       }}
-      onClick={() => history.push(`/todo/${id}`)}
+      onClick={() => history.push(`/todos/${id}`)}
     >
       <h4>{title}</h4>
       <h6>{`completed: ${completed}`}</h6>
