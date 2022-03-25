@@ -1,0 +1,15 @@
+/* .cart{ */
+
+
+/* } */
+.recommended{
+    transition: 0.3s;
+    width: 89%;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4%;
+    margin-bottom: 30px;
+}

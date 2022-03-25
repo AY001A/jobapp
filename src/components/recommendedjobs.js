@@ -5,9 +5,11 @@ import access from '../../src/assets/access.svg'
 import google from '../../src/assets/google.svg'
 import { GoLocation } from "react-icons/go";
 import { HiArrowNarrowLeft, HiArrowNarrowRight } from "react-icons/hi";
+import './Recommendedjobs.css'
 
 const Recommendedjobs = () => {
   return (
+    
     <div className='recommended'>
       <h2 className='mb-5' style={{ color: '#3F403F', fontSize: '36px'}}>Recommended Jobs</h2>
       <div className='row recommendedRow'>
@@ -17,7 +19,7 @@ const Recommendedjobs = () => {
               <button className='QAbutton '>Full time</button>
             </div>
             
-            <div className='recommendedImgContainer'>
+            <div className='recommendedImg'>
               <img src={paystackcolor} alt='' className='recommendedImg'/>
               <h5 className='recommendedRole'>QA Engineer</h5>
             </div>
@@ -40,7 +42,7 @@ const Recommendedjobs = () => {
               <button className='QAbutton '>Part time</button>
             </div>
             
-            <div className='recommendedImgContainer'>
+            <div className='recommendedImg'>
               <img src={google} alt='' className='recommendedImg'/>
               <h5 className='recommendedRole'>Product Analyst</h5>
             </div>
@@ -63,7 +65,7 @@ const Recommendedjobs = () => {
               <button className='QAbutton '>Full time</button>
             </div>
             
-            <div className='recommendedImgContainer'>
+            <div className='recommendedImg'>
               <img src={flutterwave} alt='' className='recommendedImg'/>
               <h5 className='recommendedRole'>HR Manager</h5>
             </div>
@@ -86,7 +88,7 @@ const Recommendedjobs = () => {
               <button className='QAbutton '>Full time</button>
             </div>
             
-            <div className='recommendedImgContainer'>
+            <div className='recommendedImg'>
               <img src={access} alt='' className='recommendedImg'/>
               <h5 className='recommendedRole'>QA Engineer</h5>
             </div>

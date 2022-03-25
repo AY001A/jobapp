@@ -2,16 +2,19 @@ import React from 'react'
 import paystack from '../../src/assets/paystack-removebg-preview.svg'
 import google from '../../src/assets/google-removebg-preview.svg'
 import kpmg from '../../src/assets/kpmg-removebg-preview.svg'
-import heroImg from '../../src/assets/hero-image.svg'
+import candidateImg from '../../src/assets/candidate-image.svg'
+ import bgImage from '../assets/bg.svg'
 import { BiSearchAlt } from 'react-icons/bi'
+ import './Candidate.css'
 
 const Candidate = () => {
   return (
-    <div className='hero'>
-      <div className='row' >
+    <div className='home'>
+      <div className='container'>
+      <div className='row'>
         <div className='col coleft'>
-          <div className='heroLeft'>
-            <h1>Find a <span className='job'>Job</span> easily</h1>
+          <div className='homeLeft'>
+            <h1 className='tex'>Find a <span className='job-text'>Job</span> easily</h1>
             <p>With a verified, up-to-date job listings directly from employer websites, we create a premium experience for job seekers, employers, and data seekers alike.</p>
               <div class="input-group">
                 <input type="text"  placeholder="Enter keywords, skill, interest" style={{ borderTopLeftRadius: '30px', borderBottomLeftRadius: '30px', width: "250px", border: 'none', backgroundColor: '#f9f9f9', padding: '15px', height: '45px' }} />
@@ -33,9 +36,11 @@ const Candidate = () => {
 
           </div>
         </div>
+        
         <div className='col'>
-          <img src={heroImg} alt='' style={{ height: '90vh'}}/>
+          <img src={candidateImg} alt='' style={{ height: '90vh'}}/>
  
+        </div>
         </div>
       </div>
     </div>

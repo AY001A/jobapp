@@ -1,0 +1,17 @@
+.partner1 {
+  font-size: 36px;
+  font-weight: bolder;
+  padding-top: 86px;
+  padding-bottom: 70px;
+}
+.partner2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 200%; */
+  /* or 32px */
+}
+.partnerLink{
+  color:#06942A;
+  
+}

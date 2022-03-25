@@ -1,0 +1,12 @@
+.job-text {
+  color: green;
+  font-weight: 600;
+  /* font-family: 'GT Walasheim pro'; */
+  font-size: 48px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.home {
+  background-image: url("../assets/back.svg");
+}

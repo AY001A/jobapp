@@ -2,6 +2,7 @@ import React from 'react'
 
 import hiw from '../../src/assets/hiw.svg'
 import check from '../../src/assets/check.svg'
+import './HowItWorks.css'
 
 const HowItWorks = () => {
   return (
@@ -14,14 +15,14 @@ const HowItWorks = () => {
         </div>
 
         <div className='col-5'>
-          <h1 className='my-2'>How it works</h1>
-          <p className='my-3'>Get a job helps you find the right job easily. Get a job helps you find the right job easily. Get a job helps you find the right job easily.</p>
+          <h1 className='my-2 fw-bolder'>How it works</h1>
+          <p className='my-3'>Get a job helps you find the right job easily. Get a job helps you <br/> find the right job easily. Get a job helps you find the right job<br/> easily.</p>
           
-          <div class="form-check">
+          <div class="form-check ">
             <span>
               <img src={check} alt='' />
             </span>
-            <label class="form-check-label fs-5 fw-bold" for="flexCheckDefault">
+            <label class="form1 fs-5 fw-normal" for="flexCheckDefault">
               Search Jobs
             </label>
 
@@ -32,7 +33,7 @@ const HowItWorks = () => {
           <span>
               <img src={check} alt='' />
             </span>
-            <label class="form-check-label fs-5 fw-bold" for="flexCheckDefault">
+            <label class="form1 fs-5 fw-normal" for="flexCheckDefault">
               Create a Profile and Get Noticed
             </label>
 
@@ -43,7 +44,7 @@ const HowItWorks = () => {
             <span>
               <img src={check} alt='' />
             </span>
-            <label class="form-check-label fs-5 fw-bold" for="flexCheckDefault">
+            <label class="form1 fs-5 fw-normal" for="flexCheckDefault">
               Apply for jobs
             </label>
 

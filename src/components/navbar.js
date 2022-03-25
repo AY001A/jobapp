@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../src/assets/logo.svg'
 import { Link } from 'react-router-dom'
+import './Navbar.css'
 
 const Navbar = () => {
   return (
@@ -51,7 +52,7 @@ const Navbar = () => {
         </ul>
         <form className="d-flex navButtons">
           <button className="signupbtn btn" type="submit ">Sign up</button>
-          <button className="loginbtn px-4 btn btn-primary" type="submit ">Login</button>
+          <button className="loginbtn px-4 btn " type="submit ">Login</button>
         </form>
       </div>
     </div>

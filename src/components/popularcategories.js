@@ -7,19 +7,20 @@ import DAM from '../../src/assets/DAM.svg'
 import TECH from '../../src/assets/Laptop.svg'
 import SEC from '../../src/assets/Security icon.svg'
 import DA from '../../src/assets/Data Analyst Icon.svg'
+import './PopularCategories.css'
 
 const PopularCategories = () => {
   return (
-    <div className='popularCategory'>
-      <h1 className='text-center my-3'>Popular Category</h1>
+    <div className='popularCat'>
+      <h1 className='text-center my-4 fw-bolder' >Popular Category</h1>
 
       <div className='row'>
         <div className='col-3'>
-            <div className='card popularcard'>
-              <div className='popularCategoryCard'>
+            <div className='card'>
+              <div className='popularCategories'>
                 <img src={OAG} alt='' />
 
-                <p className='popularPP text-center'>Oil and Gas</p>
+                <p className='popular text-center'>Oil and Gas</p>
                 <p className='popularP'>(20 new jobs)</p>
 
               </div>
@@ -28,11 +29,11 @@ const PopularCategories = () => {
           </div>
 
           <div className='col-3'>
-          <div className='card popularcard'>
-            <div className='popularCategoryCard'>
+          <div className='card'>
+            <div className='popularCategories'>
               <img src={HC} alt='' />
 
-              <p className='popularPP text-center'>Healthcare</p>
+              <p className='popular text-center'>Healthcare</p>
               <p className='popularP'>(20 new jobs)</p>
 
             </div>
@@ -41,11 +42,11 @@ const PopularCategories = () => {
         </div>
 
         <div className='col-3'>
-          <div className='card popularcard'>
-            <div className='popularCategoryCard'>
+          <div className='card'>
+            <div className='popularCategories'>
               <img src={EDU} alt='' />
 
-              <p className='popularPP text-center'>Education</p>
+              <p className='popular text-center'>Education</p>
               <p className='popularP'>(20 new jobs)</p>
 
             </div>
@@ -54,11 +55,11 @@ const PopularCategories = () => {
         </div>
 
         <div className='col-3'>
-          <div className='card popularcard'>
-            <div className='popularCategoryCard'>
+          <div className='card'>
+            <div className='popularCategories'>
               <img src={ACC} alt='' />
 
-              <p className='popularPP text-center'>Accounting</p>
+              <p className='popular text-center'>Accounting</p>
               <p className='popularP'>(20 new jobs)</p>
 
             </div>
@@ -73,11 +74,11 @@ const PopularCategories = () => {
         
 
         <div className='col-3'>
-          <div className='card popularcard'>
-            <div className='popularCategoryCard'>
+          <div className='card'>
+            <div className='popularCategories'>
               <img src={DAM} alt='' />
 
-              <p className='popularPP text-center'>Design</p>
+              <p className='popular text-center'>Design</p>
               <p className='popularP'>(20 new jobs)</p>
 
             </div>
@@ -86,11 +87,11 @@ const PopularCategories = () => {
         </div>
 
         <div className='col-3'>
-          <div className='card popularcard'>
-            <div className='popularCategoryCard'>
+          <div className='card'>
+            <div className='popularCategories'>
               <img src={TECH} alt='' />
 
-              <p className='popularPP text-center'>Technology</p>
+              <p className='popular text-center'>Technology</p>
               <p className='popularP'>(20 new jobs)</p>
 
             </div>
@@ -99,11 +100,11 @@ const PopularCategories = () => {
         </div>
 
         <div className='col-3'>
-          <div className='card popularcard'>
-            <div className='popularCategoryCard'>
+          <div className='card'>
+            <div className='popularCategoriesCard'>
               <img src={SEC} alt='' />
 
-              <p className='popularPP text-center'>Security</p>
+              <p className='popular text-center'>Security</p>
               <p className='popularP'>(20 new jobs)</p>
 
             </div>
@@ -112,11 +113,11 @@ const PopularCategories = () => {
         </div>
 
         <div className='col-3'>
-          <div className='card popularcard'>
-            <div className='popularCategoryCard'>
+          <div className='card'>
+            <div className='popularCategoriesCard'>
               <img src={DA} alt='' />
 
-              <p className='popularPP text-center'>Data Analyst</p>
+              <p className='popular text-center'>Data Analyst</p>
               <p className='popularP'>(20 new jobs)</p>
 
             </div>

@@ -9,6 +9,7 @@ import Accenture from '../../src/assets/Accenture.svg'
 import Mckinsey from '../../src/assets/Mckinsey.svg'
 import Googl from '../../src/assets/Googl.svg'
 import { Link } from 'react-router-dom'
+import './LearnMore.css'
 
 const LearnMore = () => {
   return (
@@ -16,9 +17,9 @@ const LearnMore = () => {
       <div className='row'>
         <div className='col partner'>
             <div className='partnerCol'>
-              <h1 className='partnerHeader my-3'>Over  1000+  jobs from top companies in our network</h1>
-              <p className='partnerP'>Every day we index millions of jobs directly from employer websites. We’re committed to accurate, high-quality jobs so you won’t find old, duplicated, or spammy listings here.</p>
-              <p className='partnerP'>Organize and automate your job search while at home or on the go. We’ll deliver new, relevant jobs of interest straight to your inbox.</p>
+              <h1 className='partner1'>Over  1000+  jobs from top<br/> companies in our network</h1>
+              <p className='partner2'>Every day we index millions of jobs directly from employer websites.<br/> We’re committed to accurate, high-quality jobs so you won’t find old, duplicated, or spammy listings here.</p>
+              <p className='partner3'>Organize and automate your job search while at home or on the go.<br/> We’ll deliver new, relevant jobs of interest straight to your inbox.</p>
               
               <Link to='/' className='partnerLink'>Learn More</Link>
               <i className='partnerLinkIcon'>
