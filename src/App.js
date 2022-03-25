@@ -11,7 +11,7 @@ export default function App () {
       <Router>
       <Switch>
           <Route exact path='/' children={<Home />} />
-          <Route exact path='/' children={<Todos />} />
+          <Route exact path='/Todos' children={<Todos />} />
                  <Route path='/todos/:id' children={<Todo />} />
         </Switch>
       </Router>

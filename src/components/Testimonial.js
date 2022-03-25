@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiArrowNarrowLeft, HiArrowNarrowRight } from "react-icons/hi";
+// import { HiArrowNarrowLeft, HiArrowNarrowRight } from "react-icons/hi";
 import test from '../../src/assets/testimonialimg.svg'
 import './Testimonial.css'
 

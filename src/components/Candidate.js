@@ -3,7 +3,7 @@ import paystack from '../../src/assets/paystack-removebg-preview.svg'
 import google from '../../src/assets/google-removebg-preview.svg'
 import kpmg from '../../src/assets/kpmg-removebg-preview.svg'
 import candidateImg from '../../src/assets/candidate-image.svg'
- import bgImage from '../assets/bg.svg'
+
 import { BiSearchAlt } from 'react-icons/bi'
  import './Candidate.css'
 

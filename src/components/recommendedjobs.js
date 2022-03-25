@@ -5,20 +5,35 @@ import access from '../../src/assets/access.svg'
 import google from '../../src/assets/google.svg'
 import { GoLocation } from "react-icons/go";
 import { HiArrowNarrowLeft, HiArrowNarrowRight } from "react-icons/hi";
-import './Recommendedjobs.css'
+// import './Recommendedjobs.css'
 
 const Recommendedjobs = () => {
   return (
+    <div>
+
+
+    <div className='container'>
+      <div className='row'>
+              <div className='col-lg-3'>
+              <div className='recommended'>
+            <h2 className='mb-5' style={{ color: '#3F403F', fontSize: '36px'}}>Recommended Jobs</h2>
+            <div className='row recommendedRow'>
+              <div className='col recommendedCol'>
+                <div className='card'>
+                  <div className='QAbuttonHolder'>
+                    <button className='QAbutton '>Full time</button>
+                  </div>
+              </div>
+           </div>
+       </div>
+     </div>
+    </div>
+    </div>
     
-    <div className='recommended'>
-      <h2 className='mb-5' style={{ color: '#3F403F', fontSize: '36px'}}>Recommended Jobs</h2>
-      <div className='row recommendedRow'>
-        <div className='col recommendedCol'>
-          <div className='card'>
-            <div className='QAbuttonHolder'>
-              <button className='QAbutton '>Full time</button>
-            </div>
-            
+    
+    <div className='container'>
+      <div className='row'>
+        <div className='col-lg-3'>
             <div className='recommendedImg'>
               <img src={paystackcolor} alt='' className='recommendedImg'/>
               <h5 className='recommendedRole'>QA Engineer</h5>
@@ -37,6 +52,7 @@ const Recommendedjobs = () => {
             </div>
           </div>
 
+          <div className='col-lg-3'>
           <div className='card'>
             <div className='QAbuttonHolder'>
               <button className='QAbutton '>Part time</button>
@@ -59,7 +75,9 @@ const Recommendedjobs = () => {
 
             </div>
           </div>
+          </div>
 
+      <div className='col-lg-3'>
           <div className='card'>
             <div className='QAbuttonHolder'>
               <button className='QAbutton '>Full time</button>
@@ -82,7 +100,12 @@ const Recommendedjobs = () => {
 
             </div>
           </div>
+          <div/>
+          </div>
+          <div/>
 
+
+          <div className='col-lg-3'>
           <div className='card'>
             <div className='QAbuttonHolder'>
               <button className='QAbutton '>Full time</button>
@@ -106,9 +129,10 @@ const Recommendedjobs = () => {
             </div>
           </div>
         </div>
+        </div>
         
 
-        
+        </div>
          
         
       
@@ -118,9 +142,11 @@ const Recommendedjobs = () => {
           <i><HiArrowNarrowRight /></i>
         </div>
 
-      </div>
+
+        </div>
+
     </div>
   )
 }
 
-export default Recommendedjobs
+export default Recommendedjobs;
