@@ -9,10 +9,10 @@ const TodoCard = (props) => {
   return (
     <div
       style={{
-        backgroundColor: "green",
-        margin: "1px",
+        backgroundColor: "#76C48A",
+        margin: "2px",
         padding: "15px",
-        width: "120px",
+        width: "220px",
       }}
       onClick={() => history.push(`/todos/${id}`)}
     >

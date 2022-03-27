@@ -1,152 +1,65 @@
 import React from 'react'
-import paystackcolor from '../../src/assets/paystackcolor.svg'
-import flutterwave from '../../src/assets/flutterwave.svg'
-import access from '../../src/assets/access.svg'
-import google from '../../src/assets/google.svg'
-import { GoLocation } from "react-icons/go";
-import { HiArrowNarrowLeft, HiArrowNarrowRight } from "react-icons/hi";
-// import './Recommendedjobs.css'
+import paystack from '../assets/paystack.svg'
+import google from '../assets/google.svg'
+import hr from '../assets/paystack.svg'
+import access from '../assets/flutterwave.svg'
+import './Recommendedjobs.css'
 
 const Recommendedjobs = () => {
   return (
-    <div>
-
-
+<div className='kontainer'>
     <div className='container'>
-      <div className='row'>
-              <div className='col-lg-3'>
-              <div className='recommended'>
-            <h2 className='mb-5' style={{ color: '#3F403F', fontSize: '36px'}}>Recommended Jobs</h2>
-            <div className='row recommendedRow'>
-              <div className='col recommendedCol'>
-                <div className='card'>
-                  <div className='QAbuttonHolder'>
-                    <button className='QAbutton '>Full time</button>
-                  </div>
-              </div>
-           </div>
-       </div>
-     </div>
+    <div className='row'>
+        <div className='col-lg-12'>
+        <h1 className=' recommended  fw-bolder'>Recommended Jobs</h1>
+        </div>
     </div>
     </div>
-    
-    
-    <div className='container'>
-      <div className='row'>
-        <div className='col-lg-3'>
-            <div className='recommendedImg'>
-              <img src={paystackcolor} alt='' className='recommendedImg'/>
-              <h5 className='recommendedRole'>QA Engineer</h5>
-            </div>
-              <hr />
-            <h5 className='recommendedPartner'>Paystack</h5>
-            <div className='location d-flex'>
-              <i className='recommendedLocationIcon'>
-                <GoLocation />
-              </i>
 
-              <p className='recommendedLocation'>Lagos, Nigeria</p>
 
-              <button className='recommendedApply'>Apply now</button>
+<div className='container'>
+    <div className='row'>
+        <div className='col-lg-3 cards'>
+        <button className='btn btn-light time-buttons-paystack'>Full Time</button>
+            <img src={paystack} className='Popular-img-paystack' alt='paystack' />
+            <p className='titles'>QA Engineer</p>
 
-            </div>
-          </div>
-
-          <div className='col-lg-3'>
-          <div className='card'>
-            <div className='QAbuttonHolder'>
-              <button className='QAbutton '>Part time</button>
+                <h5 className='title-header'> Paystack</h5>
+                <p className='address'>Lagos, Nigeria <a href className='apply'>Apply Now</a></p>
             </div>
             
-            <div className='recommendedImg'>
-              <img src={google} alt='' className='recommendedImg'/>
-              <h5 className='recommendedRole'>Product Analyst</h5>
+
+            <div className='col-lg-3 cards'>
+            <button className='btn btn-light time-buttons'>Part Time</button>
+                <img src={google} className='Popular-img-google' alt='google' />
+                <p className='titles'>Product Analyst</p>
+
+                <h5 className='title-header'> Paystack</h5>
+                <p className='address'>Lagos, Nigeria <a href className='apply'>Apply Now</a></p>
             </div>
-              <hr />
-            <h5 className='recommendedPartner'>Google</h5>
-            <div className='location d-flex'>
-              <i className='recommendedLocationIcon'>
-                <GoLocation />
-              </i>
 
-              <p className='recommendedLocation'>Lagos, Nigeria</p>
+            <div className='col-lg-3 cards'>
+            <button className='btn btn-light time-buttons'>Full Time</button>
+                <img src={hr} className='Popular-img-hr' alt='hr' />
+                <p className='titles'>HR Manager</p>
 
-              <button className='recommendedApply'>Apply now</button>
-
+                <h5 className='title-header'> Paystack</h5>
+                <p className='address'>Lagos, Nigeria <a href className='apply'>Apply Now</a></p>
             </div>
-          </div>
-          </div>
 
-      <div className='col-lg-3'>
-          <div className='card'>
-            <div className='QAbuttonHolder'>
-              <button className='QAbutton '>Full time</button>
-            </div>
-            
-            <div className='recommendedImg'>
-              <img src={flutterwave} alt='' className='recommendedImg'/>
-              <h5 className='recommendedRole'>HR Manager</h5>
-            </div>
-              <hr />
-            <h5 className='recommendedPartner'>Flutterwave </h5>
-            <div className='location d-flex'>
-              <i className='recommendedLocationIcon'>
-                <GoLocation />
-              </i>
+            <div className='col-lg-3 cards'>
+            <button className='btn btn-light time-buttons-access'>Full Time</button>
+            <img src={access} className='Popular-img' alt='access' />
+            <p className='titles'>QA Engineer</p>
 
-              <p className='recommendedLocation'>Abuja, Nigeria</p>
-
-              <button className='recommendedApply'>Apply now</button>
-
-            </div>
-          </div>
-          <div/>
-          </div>
-          <div/>
-
-
-          <div className='col-lg-3'>
-          <div className='card'>
-            <div className='QAbuttonHolder'>
-              <button className='QAbutton '>Full time</button>
-            </div>
-            
-            <div className='recommendedImg'>
-              <img src={access} alt='' className='recommendedImg'/>
-              <h5 className='recommendedRole'>QA Engineer</h5>
-            </div>
-              <hr />
-            <h5 className='recommendedPartner'>Access</h5>
-            <div className='location d-flex'>
-              <i className='recommendedLocationIcon'>
-                <GoLocation />
-              </i>
-
-              <p className='recommendedLocation'>Lagos, Nigeria</p>
-
-              <button className='recommendedApply'>Apply now</button>
-
-            </div>
-          </div>
+            <h5 className='title-header'> Paystack</h5>
+            <p className='address'>Lagos, Nigeria <a href className='apply'>Apply Now</a></p>
         </div>
-        </div>
-        
-
-        </div>
-         
-        
-      
-
-        <div className='arrows'>
-          <i><HiArrowNarrowLeft /></i>
-          <i><HiArrowNarrowRight /></i>
-        </div>
-
-
-        </div>
-
     </div>
+</div>
+
+ </div>
   )
 }
 
-export default Recommendedjobs;
+export default Recommendedjobs

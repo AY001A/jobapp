@@ -5,16 +5,17 @@ import HowItWorks from './HowItWorks'
 import Navbar from './Navbar'
 import LearnMore from './LearnMore'
 import PopularCategories from './PopularCategories'
-// import Recommendedjobs from './Recommendedjobs'
+import Recommendedjobs from './Recommendedjobs'
 import Testimonial from './Testimonial'
 import Footer from './Footer'
 
+
 const Home = () => {
   return (
-    <div className='container'>
+    <div className='contain'>
         <Navbar />
         <Candidate />
-        {/* <Recommendedjobs /> */}
+        <Recommendedjobs />
         <HowItWorks />
         <PopularCategories />
         <LearnMore />
